@@ -1,2 +1,1 @@
-# monopress
-WordPress basic blog theme
+# wp-starter-theme
