@@ -11,7 +11,7 @@ function mytheme_enqueue_scripts() {
     // wp_enqueue_style('mytheme-custom', get_template_directory_uri() . '/assets/css/custom.css');
 
     // Приклад підключення скрипту (якщо є)
-    // wp_enqueue_script('mytheme-script', get_template_directory_uri() . '/assets/js/script.js', array(), false, true);
+    wp_enqueue_script('mytheme-script', get_template_directory_uri() . '/js/script.js', array(), false, true);
 }
 add_action('wp_enqueue_scripts', 'mytheme_enqueue_scripts');
 
