@@ -2,7 +2,7 @@
 		<div class="footer__container">
 			<div class="footer__row">
 				<a href="/index.html" class="footer__logo">
-					<img src="./images/logo/logo.svg" alt="Header logo">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.svg" alt="Footer logo">
 				</a>
 				<nav class="footer__nav">
 					<a href="/" class="footer__link">Головна</a>
