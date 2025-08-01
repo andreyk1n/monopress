@@ -15,7 +15,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="index.html" class="header__logo">
+				<a href="/" class="header__logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.svg" alt="Header logo">
 				</a>
 				<nav class="header__nav">

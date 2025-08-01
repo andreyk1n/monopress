@@ -1,7 +1,7 @@
 	<footer class="footer">
 		<div class="footer__container">
 			<div class="footer__row">
-				<a href="/index.html" class="footer__logo">
+				<a href="/" class="footer__logo">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.svg" alt="Footer logo">
 				</a>
 				<nav class="footer__nav">
