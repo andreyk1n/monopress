@@ -6,10 +6,10 @@
 				</a>
 				<nav class="footer__nav">
 					<a href="/" class="footer__link">Головна</a>
-					<a href="blog.html" class="footer__link">Блог</a>
-					<a href="about-us.html" class="footer__link">Про нас</a>
-					<a href="contacts.html" class="footer__link">Контакти</a>
-					<a href="privacy-policy.html" class="footer__link">Політика конфіденційності</a>
+					<a href="/blog/" class="footer__link">Блог</a>
+					<a href="/about-us/" class="footer__link">Про нас</a>
+					<a href="/contacts/" class="footer__link">Контакти</a>
+					<a href="/privacy-policy/" class="footer__link">Політика конфіденційності</a>
 				</nav>
 
 				<div class="footer__socials">

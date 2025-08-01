@@ -20,10 +20,10 @@
 				</a>
 				<nav class="header__nav">
 					<a href="/" class="header__link">Головна</a>
-					<a href="index.html#services" class="header__link">Послуги</a>
-					<a href="blog.html" class="header__link">Блог</a>
-					<a href="about-us.html" class="header__link">Про нас</a>
-					<a href="contacts.html" class="header__link">Контакти</a>
+					<a href="#services" class="header__link">Послуги</a>
+					<a href="/blog/" class="header__link">Блог</a>
+					<a href="/about-us/" class="header__link">Про нас</a>
+					<a href="/contacts/" class="header__link">Контакти</a>
 					<a href="#search" class="header__link"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 							width="24" height="24" viewBox="0 0 50 50">
 							<path
