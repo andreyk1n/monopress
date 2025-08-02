@@ -4,12 +4,12 @@ get_header();
 
 <?php
 get_template_part('template-parts/components/hero', null, array(
-    'title' => 'Розвивайте бізнес з легкістю',
-    'subtitle' => 'Інструменти для управління фінансами, закупівлями та витратами — усе в одному місці.',
-    'button_text' => 'Дізнатися більше',
-    'button_href' => '#services',
-    'image_src' => get_template_directory_uri() . '/images/img.svg',
-    'image_alt' => 'Бізнес рішення',
+	'title' => 'Розвивайте бізнес з легкістю',
+	'subtitle' => 'Інструменти для управління фінансами, закупівлями та витратами — усе в одному місці.',
+	'button_text' => 'Дізнатися більше',
+	'button_href' => '#services',
+	'image_src' => get_template_directory_uri() . '/images/img.svg',
+	'image_alt' => 'Бізнес рішення',
 ));
 ?>
 
@@ -213,18 +213,8 @@ get_template_part('template-parts/components/hero', null, array(
 	</div>
 </section>
 
+<?php get_template_part('template-parts/partials/search'); ?>
 
-<!-- Якщо потрібна модалка - розкоментуйте -->
-<div id="search" class="modal">
-	<div class="modal__container">
-		<div class="modal-content search">
-			<input type="text" placeholder="Введіть запит..." class="search__input">
-			<button class="search__button" onclick="document.location='/search.html';">Шукати</button>
-		</div>
-	</div>
-	<span onclick="document.location='#close'; return false;" class="close-overlay"></span>
-</div>
-<!-- Якщо потрібна модалка - розкоментуйте -->
 </div>
 </div>
 
