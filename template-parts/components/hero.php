@@ -1,5 +1,4 @@
 <?php
-// Отримуємо передані дані
 $title = $args['title'] ?? '';
 $subtitle = $args['subtitle'] ?? '';
 $button_text = $args['button_text'] ?? '';

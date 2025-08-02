@@ -13,80 +13,9 @@ get_template_part('template-parts/components/hero', null, array(
 ));
 ?>
 
-
-
-<section class="related">
-	<div class="related__container">
-		<h2>Вас може зацікавити</h2>
-		<div class="related__main">
-			<a href="#" class="related__image-wrapper">
-				<img src="./images/img.svg" alt="Управління кількома підприємствами" class="related__image">
-			</a>
-			<div class="related__content">
-				<a href="#" class="related__title">
-					Управління кількома підприємствами: Майстерність фінансової консолідації
-				</a>
-				<p class="related__description">
-					Дізнайтеся, як ефективно керувати кількома підприємствами та чому консолідація обліку може допомогти
-					вашій організації досягти кращих результатів у довгостроковій перспективі.
-				</p>
-				<a href="#" class="related__tag">Фінансова стратегія</a>
-			</div>
-		</div>
-
-		<div class="related__list">
-			<article class="related__item">
-				<a href="#" class="related__item-image">
-					<img src="./images/img.svg" alt="Управління витратами" class="related__thumb">
-				</a>
-				<div class="related__item-content">
-					<a href="#" class="related__item-title">
-						Топ-10 рішень для управління витратами у 2025 році
-					</a>
-					<a href="#" class="related__item-tag">Управління витратами</a>
-				</div>
-			</article>
-
-			<article class="related__item">
-				<a href="#" class="related__item-image">
-					<img src="./images/img.svg" alt="Закупівлі" class="related__thumb">
-				</a>
-				<div class="related__item-content">
-					<a href="#" class="related__item-title">
-						Регулювання електронного інвойсингу: Що змінюється у Великій
-						Британії та Європі (оновлення 2025)
-					</a>
-					<a href="#" class="related__item-tag">Закупівлі</a>
-				</div>
-			</article>
-
-			<article class="related__item">
-				<a href="#" class="related__item-image">
-					<img src="./images/img.svg" alt="Закупівлі" class="related__thumb">
-				</a>
-				<div class="related__item-content">
-					<a href="#" class="related__item-title">
-						7-етапний процес закупівель для фінансових команд
-					</a>
-					<a href="#" class="related__item-tag">Закупівлі</a>
-				</div>
-			</article>
-
-			<article class="related__item">
-				<a href="#" class="related__item-image">
-					<img src="./images/img.svg" alt="Витрати на бізнес-подорожі" class="related__thumb">
-				</a>
-				<div class="related__item-content">
-					<a href="#" class="related__item-title">
-						Подорожні витрати за правилами HMRC: Посібник із витрат на
-						бізнес-подорожі та оподаткування
-					</a>
-					<a href="#" class="related__item-tag">Витрати на бізнес-подорожі</a>
-				</div>
-			</article>
-		</div>
-	</div>
-</section>
+<?php get_template_part('template-parts/components/related', null, array(
+	'title' => 'Вас може зацікавити',
+)); ?>
 
 
 <section class="services" id="services">
