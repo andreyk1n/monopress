@@ -1,22 +1,7 @@
 <?php
 get_header();
 ?>
-<section class="hero">
-	<div class="hero__container">
-		<div class="hero__content">
-			<h1 class="hero__title">
-				Розвивайте бізнес з легкістю
-			</h1>
-			<p class="hero__subtitle">
-				Інструменти для управління фінансами, закупівлями та витратами — усе в одному місці.
-			</p>
-			<a href="#services" class="hero__button">Дізнатися більше</a>
-		</div>
-		<div class="hero__image-wrapper">
-			<img src="./images/img.svg" alt="Бізнес рішення" class="hero__image">
-		</div>
-	</div>
-</section>
+
 
 <section class="related">
 	<div class="related__container">
