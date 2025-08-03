@@ -20,7 +20,7 @@
 				</a>
 				<nav class="header__nav">
 					<a href="/" class="header__link">Головна</a>
-					<a href="#services" class="header__link">Послуги</a>
+					<a href="<?php echo is_front_page() ? '#services' : home_url( '/#services' ); ?>" class="header__link">Послуги</a>
 					<a href="/blog/" class="header__link">Блог</a>
 					<a href="/about/" class="header__link">Про нас</a>
 					<a href="/contacts/" class="header__link">Контакти</a>
