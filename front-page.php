@@ -8,7 +8,7 @@ get_template_part('template-parts/components/hero', null, array(
 	'subtitle' => 'Інструменти для управління фінансами, закупівлями та витратами — усе в одному місці.',
 	'button_text' => 'Дізнатися більше',
 	'button_href' => '#services',
-	'image_src' => get_template_directory_uri() . '/images/img.svg',
+	'image_src' => get_the_post_thumbnail_url(),
 	'image_alt' => 'Бізнес рішення',
 ));
 ?>

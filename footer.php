@@ -6,7 +6,7 @@
 				</a>
 				<nav class="footer__nav">
 					<a href="/" class="footer__link">Головна</a>
-					<a href="/" class="footer__link">Послуги</a>
+					<a href="<?php echo is_front_page() ? '#services' : home_url( '/#services' ); ?>" class="footer__link">Послуги</a>
 					<a href="/blog/" class="footer__link">Блог</a>
 					<a href="/about/" class="footer__link">Про нас</a>
 					<a href="/contacts/" class="footer__link">Контакти</a>

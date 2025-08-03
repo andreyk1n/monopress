@@ -11,7 +11,7 @@ get_template_part('template-parts/components/hero', null, array(
     'subtitle' => 'Актуальні матеріали про фінансове планування, оптимізацію витрат та ефективні закупівлі.',
     'button_text' => '',
     'button_href' => '',
-    'image_src' => get_template_directory_uri() . '/images/img.svg',
+    'image_src' => get_the_post_thumbnail_url(),
     'image_alt' => 'Блог MonoPress',
 ));
 ?>

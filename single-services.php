@@ -1,21 +1,15 @@
 <?php get_header(); ?>
 
-<section class="hero">
-    <div class="hero__container">
-        <div class="hero__content">
-            <h1 class="hero__title">
-                <?php the_title(); ?>
-            </h1>
-            <p class="hero__subtitle">
-                <?= get_the_excerpt(); ?>
-            </p>
-            <a href="#form" class="hero__button">Замовити дзвінок</a>
-        </div>
-        <div class="hero__image-wrapper">
-            <img src="./images/img.svg" alt="Бізнес рішення" class="hero__image">
-        </div>
-    </div>
-</section>
+<?php
+get_template_part('template-parts/components/hero', null, array(
+    'title' => get_the_title(),
+    'subtitle' => get_the_excerpt(),
+    'button_text' => 'Замовити дзвінок',
+    'button_href' => '#form',
+    'image_src' => get_the_post_thumbnail_url(),
+    'image_alt' => get_the_title(),
+));
+?>
 
 <section class="service-details">
     <div class="service-details__container">

@@ -11,9 +11,9 @@ get_template_part('template-parts/components/hero', null, array(
     'subtitle' => 'Ми завжди відкриті до співпраці, запитань і нових можливостей.',
     'button_text' => '',
     'button_href' => '',
-    'image_src' => get_template_directory_uri() . '/images/img.svg',
+    'image_src' => get_the_post_thumbnail_url(),
     'image_alt' => 'Контакти MonoPress',
 ));
-?> 
+?>
 
 <?php get_footer(); ?>
