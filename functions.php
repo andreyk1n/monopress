@@ -65,3 +65,31 @@ add_action('admin_init', 'mytheme_redirect_non_admin_users');
 */ 
 
 ?>
+
+<?
+// Реєстрація кастомного типу запису "Послуги"
+function create_services_post_type() {
+	register_post_type('services', [
+		'labels' => [
+			'name' => 'Послуги',
+			'singular_name' => 'Послуга',
+			'menu_name' => 'Послуги',
+			'all_items' => 'Усі послуги',
+			'add_new' => 'Додати нову',
+			'add_new_item' => 'Додати нову послугу',
+			'edit_item' => 'Редагувати послугу',
+			'new_item' => 'Нова послуга',
+			'view_item' => 'Переглянути послугу',
+			'search_items' => 'Пошук послуг',
+			'not_found' => 'Послуг не знайдено',
+			'not_found_in_trash' => 'У кошику немає послуг',
+		],
+		'public' => true,
+		'has_archive' => true,
+		'show_in_rest' => true, // для Gutenberg
+		'menu_icon' => 'dashicons-hammer', // іконка в адмінці
+		'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+		'rewrite' => ['slug' => 'services'], // адреса: site.com/services/
+	]);
+}
+add_action('init', 'create_services_post_type');
