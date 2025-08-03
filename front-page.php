@@ -18,76 +18,10 @@ get_template_part('template-parts/components/hero', null, array(
 )); ?>
 
 
-<section class="services" id="services">
-	<div class="services__container">
-		<h2 class="services__title">Наші послуги</h2>
-		<p class="services__subtitle">Комплексні інструменти для управління витратами, закупівлями та фінансами</p>
-
-		<div class="services__grid">
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Фінансове планування" class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Фінансове планування</a>
-					<p>Створення бюджетів, прогнозування грошових потоків та аналітика витрат у зручному інтерфейсі.</p>
-				</div>
-			</div>
-
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Управління закупівлями" class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Управління закупівлями</a>
-					<p>Автоматизація запитів на закупівлю, контроль контрактів та прозорість ланцюгів постачання.</p>
-				</div>
-			</div>
-
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Облік витрат" class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Облік витрат</a>
-					<p>Збір, верифікація та аналітика витрат співробітників з інтеграцією в бухгалтерські системи.</p>
-				</div>
-			</div>
-
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Фінансова консолідація" class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Фінансова консолідація</a>
-					<p>Об’єднання фінансових даних кількох підприємств для точного стратегічного планування.</p>
-				</div>
-			</div>
-
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Аналітика та звітність" class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Аналітика та звітність</a>
-					<p>Динамічні звіти та візуалізації для глибокого аналізу фінансових показників у реальному часі.</p>
-				</div>
-			</div>
-
-			<div class="services__item">
-				<a href="#">
-					<img src="https://placehold.co/600x400/" alt="Відповідність та податкове планування"
-						class="services__image">
-				</a>
-				<div class="services__text">
-					<a href="#" class="services__item-title">Відповідність та податкове планування</a>
-					<p>Інструменти для відповідності регуляціям (наприклад, HMRC, e-invoicing) та оптимізації податків.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<?php get_template_part('template-parts/components/services', null, array(
+	'title' => 'Наші послуги',
+	'description' => 'Комплексні інструменти для управління витратами, закупівлями та фінансами'
+)); ?>
 
 <section class="accordion">
 	<div class="accordion__container">
